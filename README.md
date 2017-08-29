@@ -15,6 +15,7 @@ my-vue-project
  ├── -/dist             #
  │     ├── package.json #
  │     └── server.js    #
+ ├── +/node_modules
  ├── +/src
  .
  .
