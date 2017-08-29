@@ -12,7 +12,7 @@ yarn build
 3.) Add `deploy` script to your ***root*** `package.json` file:
 ```json
 "scripts": {
-  "deploy": "git subtree push --prefix dist heroku master"
+  "deploy": "npm run build && git subtree push --prefix dist heroku master"
 }
 ```
 4.) If you haven't set up Heroku remote repository, run:
