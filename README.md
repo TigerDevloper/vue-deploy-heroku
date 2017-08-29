@@ -5,9 +5,9 @@ Build the vuejs project
 ```bash
 yarn build
 ```
-Copy `package.json` and `server.js` into `dist` folder.
+Copy `package.json` and `server.js` into *dist* folder.
 
-Add `deploy` script to your *root* `package.json` file:
+Add `deploy` script to your <u>root</u> `package.json` file:
 ```json
 "scripts": {
   "deploy": "git subtree push --prefix dist heroku master"
