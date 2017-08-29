@@ -1,0 +1,11 @@
+{
+  "name": "vue-deploy-heroku",
+  "version": "1.0.0",
+  "description": "Node server for Heroku",
+  "author": "Kongpon Charanwattanakit",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm install express connect-history-api-fallback"
+  }
+}
