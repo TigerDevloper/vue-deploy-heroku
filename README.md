@@ -7,7 +7,7 @@ yarn build
 ```
 2.) Copy `package.json` and `server.js` into *dist* folder.
 
-3.) Add `deploy` script to your <u>root</u> `package.json` file:
+3.) Add `deploy` script to your ***root*** `package.json` file:
 ```json
 "scripts": {
   "deploy": "git subtree push --prefix dist heroku master"
