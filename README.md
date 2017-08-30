@@ -9,14 +9,14 @@ heroku apps:create <app_name>
 1.) Copy *dist* folder into your application directory so that your project's looks like:
 ```
 my-vue-project
- ├── +/.git
- ├── +/build
- ├── +/config
- ├── -/dist             #
- │     ├── package.json #
- │     └── server.js    #
- ├── +/node_modules
- ├── +/src
+ ├── .git/
+ ├── build/
+ ├── config/
+ ├── dist/             #
+ │   ├── package.json  #
+ │   └── server.js     #
+ ├── node_modules/
+ ├── src/
  .
  .
  ├── .gitignore
