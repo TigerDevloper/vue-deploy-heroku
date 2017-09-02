@@ -1,5 +1,5 @@
 # vue-deploy-heroku
-Necessary files for deploying Vue.js app built by vue-cli on Heroku.
+Necessary files for deploying Vue.js app built by vue-cli on Heroku.<br>***Only tested on `webpack` template.***
 ## Create Heroku Repository
 If you haven't set up Heroku remote repository, run:
 ```bash
