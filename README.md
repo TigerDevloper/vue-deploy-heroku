@@ -5,6 +5,7 @@ If you haven't set up Heroku remote repository, run:
 ```bash
 heroku apps:create <app_name>
 ```
+(required [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli))
 ## Installation
 1.) Copy *dist* folder into your application directory so that your project's looks like:
 ```
